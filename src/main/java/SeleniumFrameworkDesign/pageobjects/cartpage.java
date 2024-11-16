@@ -12,7 +12,7 @@ import SeleniumFrameworkDesign.AbstractComponents.AbstractComponent;
 
 public class cartpage extends AbstractComponent{
 	WebDriver driver;
-	
+	// this is to test out the product
 @FindBy(css=".cartSection h3")
 List<WebElement> productTitles;
 @FindBy(css=".totalRow button")
